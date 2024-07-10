@@ -14,7 +14,7 @@
       <li><strong>Attitude Assertive :</strong> Tendance à gérer les conflits de manière directe et respectueuse.</li>
     </ul>
     <p>Le total des points dans chaque colonne vous donnera une indication sur la prévalence de chaque attitude dans votre comportement. Prêt à découvrir votre profil ? Cliquez sur le bouton ci-dessous pour commencer le test.</p>
-    <button>Commencer le Test</button>
+    <router-link to="/questions">Commencer le Test</router-link>
   </div>
 </template>
 
