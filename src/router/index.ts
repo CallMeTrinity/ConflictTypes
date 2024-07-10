@@ -1,7 +1,7 @@
 import {createRouter, createWebHistory} from 'vue-router';
 import HomePage from "../components/HomePage.vue";
 import NotFoundPage from "../components/NotFoundPage.vue";
-import Question from "../components/Question.vue";
+import Questions from "../components/Questions.vue";
 
 const routes = [
     {
@@ -12,7 +12,7 @@ const routes = [
     {
         path: '/questions',
         name: 'Questions',
-        component: Question
+        component: Questions
     },
     {
         path: "/:pathMatch(.*)*",
