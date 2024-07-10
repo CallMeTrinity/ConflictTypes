@@ -1,0 +1,377 @@
+[
+  {
+    "id": 1,
+    "question": "Je dis souvent oui, alors que je voudrais dire non",
+    "score": 0
+  },
+  {
+    "id": 2,
+    "question": "Je défends mes droits, sans empiéter sur ceux des autres",
+    "score": 0
+  },
+  {
+    "id": 3,
+    "question": "Je préfère dissimuler ce que je ressens ou pense si je ne connais pas bien la personne",
+    "score": 0
+  },
+  {
+    "id": 4,
+    "question": "Je suis plutôt autoritaire et décidé(e)",
+    "score": 0
+  },
+  {
+    "id": 5,
+    "question": "Il est en général plus facile et habile d’agir par personne interposée que directement",
+    "score": 0
+  },
+  {
+    "id": 6,
+    "question": "J’essaie de trouver une solution satisfaisante pour les deux parties",
+    "score": 0
+  },
+  {
+    "id": 7,
+    "question": "Je ne crains pas de critiquer la position de l’autre et de dire aux gens ce que je pense vraiment",
+    "score": 0
+  },
+  {
+    "id": 8,
+    "question": "Je n’ose pas refuser certains arguments",
+    "score": 0
+  },
+  {
+    "id": 9,
+    "question": "Je ne crains pas de donner mon opinion, même en face d’interlocuteurs hostiles",
+    "score": 0
+  },
+  {
+    "id": 10,
+    "question": "Quand il y a une discussion un peu conflictuelle, je préfère me tenir en retrait pour voir comment cela va tourner",
+    "score": 0
+  },
+  {
+    "id": 11,
+    "question": "On me reproche quelquefois d’avoir l’esprit de contradiction",
+    "score": 0
+  },
+  {
+    "id": 12,
+    "question": "Pour se tirer d’une situation de conflit, je crois qu’il est nécessaire d’abattre cartes sur table",
+    "score": 0
+  },
+  {
+    "id": 13,
+    "question": "J’ai du mal à écouter les autres et à prendre en considération leurs arguments",
+    "score": 0
+  },
+  {
+    "id": 14,
+    "question": "Je m’arrange pour être dans le secret des dieux ; cela m’a bien rendu service",
+    "score": 0
+  },
+  {
+    "id": 15,
+    "question": "Je ne pense pas qu’il soit possible de résoudre un conflit autrement que par le dialogue et la discussion",
+    "score": 0
+  },
+  {
+    "id": 16,
+    "question": "On me considère en général comme assez malin et habile dans les négociations et tractations",
+    "score": 0
+  },
+  {
+    "id": 17,
+    "question": "J’entretiens avec les autres des rapports fondés sur la confiance plutôt que sur la domination ou le calcul",
+    "score": 0
+  },
+  {
+    "id": 18,
+    "question": "Je préfère ne pas demander d’aide à un collègue : il risquerait de penser que je suis incompétent",
+    "score": 0
+  },
+  {
+    "id": 19,
+    "question": "Je suis timide et je me sens bloqué(e) dès que je dois affirmer mon point de vue, surtout face à quelqu’un d’agressif",
+    "score": 0
+  },
+  {
+    "id": 20,
+    "question": "Dans une situation délicate, je trouve important de prendre en considération tous les aspects de la situation",
+    "score": 0
+  },
+  {
+    "id": 21,
+    "question": "Lorsqu’on me provoque, je reste la plupart du temps bouche bée. Je perds tous mes moyens face à l’agressivité ou la colère",
+    "score": 0
+  },
+  {
+    "id": 22,
+    "question": "Je suis à l’aise dans les contacts en face à face",
+    "score": 0
+  },
+  {
+    "id": 23,
+    "question": "Je joue assez souvent la comédie : comment faire autrement pour arriver à ses fins ?",
+    "score": 0
+  },
+  {
+    "id": 24,
+    "question": "Je cherche généralement l’aide de l’autre pour trouver une solution",
+    "score": 0
+  },
+  {
+    "id": 25,
+    "question": "Je m’emporte assez facilement et je coupe la parole aux autres sans m’en rendre compte à temps",
+    "score": 0
+  },
+  {
+    "id": 26,
+    "question": "J’ai de l’ambition et je suis prêt à faire ce qu’il faut pour arriver",
+    "score": 0
+  },
+  {
+    "id": 27,
+    "question": "Je sais en général qui il faut voir et quand il faut le voir : c’est important pour réussir et défendre sa position",
+    "score": 0
+  },
+  {
+    "id": 28,
+    "question": "J’écoute autant le point de vue de l’autre que je tiens compte du mien",
+    "score": 0
+  },
+  {
+    "id": 29,
+    "question": "Je suis toujours en faveur d’une discussion franche du problème",
+    "score": 0
+  },
+  {
+    "id": 30,
+    "question": "J’ai tendance à remettre à plus tard ce que je dois dire",
+    "score": 0
+  },
+  {
+    "id": 31,
+    "question": "J’attends que l’orage se calme de lui-même",
+    "score": 0
+  },
+  {
+    "id": 32,
+    "question": "En général, je me présente tel que je suis, sans dissimuler mes sentiments",
+    "score": 0
+  },
+  {
+    "id": 33,
+    "question": "Un conflit est une richesse, tandis qu’une situation bloquée est une perte d’énergie",
+    "score": 0
+  },
+  {
+    "id": 34,
+    "question": "Il en faut beaucoup pour m’intimider",
+    "score": 0
+  },
+  {
+    "id": 35,
+    "question": "Faire peur aux autres est souvent un bon moyen de prendre du pouvoir",
+    "score": 0
+  },
+  {
+    "id": 36,
+    "question": "Quand je me suis fait avoir une fois, je sais prendre ma revanche à l’occasion",
+    "score": 0
+  },
+  {
+    "id": 37,
+    "question": "Pour critiquer quelqu’un, il est efficace de lui reprocher de ne pas suivre ses propres principes.",
+    "score": 0
+  },
+  {
+    "id": 38,
+    "question": "Je sais tirer parti du système ; je suis débrouillard",
+    "score": 0
+  },
+  {
+    "id": 39,
+    "question": "Je préfère jouer cartes sur table",
+    "score": 0
+  },
+  {
+    "id": 40,
+    "question": "Je suis capable d’être moi-même, tout en continuant d’être accepté(e) socialement",
+    "score": 0
+  },
+  {
+    "id": 41,
+    "question": "Quand je ne suis pas d’accord, j’ose le dire sans passion et je me fais entendre",
+    "score": 0
+  },
+  {
+    "id": 42,
+    "question": "J’ai le souci de ne pas importuner les autres",
+    "score": 0
+  },
+  {
+    "id": 43,
+    "question": "J’ai du mal à prendre parti et à choisir",
+    "score": 0
+  },
+  {
+    "id": 44,
+    "question": "Je n’aime pas être la seule personne de mon avis dans un groupe : dans ce cas, je préfère me taire",
+    "score": 0
+  },
+  {
+    "id": 45,
+    "question": "Je n’ai pas peur d’exprimer clairement mon désaccord",
+    "score": 0
+  },
+  {
+    "id": 46,
+    "question": "La vie n’est que rapports de force et luttes",
+    "score": 0
+  },
+  {
+    "id": 47,
+    "question": "Un conflit peut être considéré comme un problème à résoudre, il s’agit alors de le comprendre et d’envisager, ensemble, toutes les solutions possibles",
+    "score": 0
+  },
+  {
+    "id": 48,
+    "question": "Je n’ai pas peur de relever des défis dangereux et risqués",
+    "score": 0
+  },
+  {
+    "id": 49,
+    "question": "Créer des conflits peut être plus efficace que réduire les tensions",
+    "score": 0
+  },
+  {
+    "id": 50,
+    "question": "Il me semble important de rechercher ensemble les causes de nos tensions",
+    "score": 0
+  },
+  {
+    "id": 51,
+    "question": "Jouer la franchise est un bon moyen pour mettre en confiance",
+    "score": 0
+  },
+  {
+    "id": 52,
+    "question": "Je sais écouter et je ne coupe pas la parole",
+    "score": 0
+  },
+  {
+    "id": 53,
+    "question": "Je mène jusqu’au bout ce que j’ai décidé de faire",
+    "score": 0
+  },
+  {
+    "id": 54,
+    "question": "Je n’ai pas peur d’exprimer mes sentiments tels que je les ressens",
+    "score": 0
+  },
+  {
+    "id": 55,
+    "question": "Je sais bien faire adhérer les gens et les amener à mes idées",
+    "score": 0
+  },
+  {
+    "id": 56,
+    "question": "Je suis convaincu(e) qu’il y a toujours moyen de s’arranger et de s’entendre",
+    "score": 0
+  },
+  {
+    "id": 57,
+    "question": "Flatter tout un chacun reste encore un bon moyen d’obtenir ce que l’on veut",
+    "score": 0
+  },
+  {
+    "id": 58,
+    "question": "En cas de désaccord, je recherche les compromis réalistes sur la base des intérêts mutuels",
+    "score": 0
+  },
+  {
+    "id": 59,
+    "question": "Une fois que je suis lancé dans mon argumentation, j’ai du mal à m’arrêter",
+    "score": 0
+  },
+  {
+    "id": 60,
+    "question": "Je sais manier l’ironie mordante",
+    "score": 0
+  },
+  {
+    "id": 61,
+    "question": "Je suis serviable et facile à vivre, parfois même je me fais un peu exploiter",
+    "score": 0
+  },
+  {
+    "id": 62,
+    "question": "J’aime mieux observer que participer",
+    "score": 0
+  },
+  {
+    "id": 63,
+    "question": "Si nous restons bloqué(e)s dans un conflit, peut-être vaut-il mieux faire appel à un tiers pour résoudre au mieux la situation",
+    "score": 0
+  },
+  {
+    "id": 64,
+    "question": "Je préfère être dans la coulisse qu’au premier rang",
+    "score": 0
+  },
+  {
+    "id": 65,
+    "question": "Je ne pense pas que la manipulation soit une solution efficace",
+    "score": 0
+  },
+  {
+    "id": 66,
+    "question": "Je partage ma vision du problème avec l’autre pour que nous puissions le régler",
+    "score": 0
+  },
+  {
+    "id": 67,
+    "question": "Il ne faut pas annoncer trop vite ses intentions, c’est maladroit",
+    "score": 0
+  },
+  {
+    "id": 68,
+    "question": "Je choque souvent les gens par mes propos",
+    "score": 0
+  },
+  {
+    "id": 69,
+    "question": "Pour gérer une situation difficile, je crois que si l’on cherche à négocier en sortant gagnant-gagnant, c’est le meilleur moyen de maintenir la relation",
+    "score": 0
+  },
+  {
+    "id": 70,
+    "question": "Je préfère être loup plutôt qu’agneau",
+    "score": 0
+  },
+  {
+    "id": 71,
+    "question": "Influencer les autres est souvent le seul moyen pratique pour obtenir ce que l’on veut",
+    "score": 0
+  },
+  {
+    "id": 72,
+    "question": "Je sais en général protester avec efficacité, sans agressivité excessive",
+    "score": 0
+  },
+  {
+    "id": 73,
+    "question": "Je trouve que les problèmes ne peuvent être vraiment résolus sans en chercher les causes profondes",
+    "score": 0
+  },
+  {
+    "id": 74,
+    "question": "Je cherche à trouver un juste milieu pour nos concessions mutuelles",
+    "score": 0
+  },
+  {
+    "id": 75,
+    "question": "Je n’aime pas me faire valoir et j’abandonne facilement mon dû plutôt que d’être perçu(e) comme vindicatif(ve)",
+    "score": 0
+  }
+]
