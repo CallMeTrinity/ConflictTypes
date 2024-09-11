@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import {ref, watch, onMounted} from 'vue';
+import { ref, watch, onMounted } from 'vue';
 
 const props = defineProps({
   id: Number,
@@ -7,31 +7,37 @@ const props = defineProps({
   initialScore: Number, // Ajout d'un prop pour le score initial
   updateScore: {
     type: Function,
-    default() {
-    },
+    default() {},
   },
 });
 
-const score = ref(props.initialScore); // Utilisation du score initial comme valeur par défaut
+const score = ref<number | null>(null); // On utilise null pour indiquer qu'il n'y a pas de sélection par défaut
 
-// Mettre à jour le score lorsque le score change
+// À chaque montée du composant, on initialise le score avec la valeur passée ou null si pas de score encore
+onMounted(() => {
+  score.value = props.initialScore !== 0 ? props.initialScore : null;
+});
+// Réinitialisation du score lorsqu'une nouvelle question est affichée
+watch(() => props.id, () => {
+  score.value = props.initialScore !== 0 ? props.initialScore : null;
+});
+// Watch pour suivre les changements de score
 watch(score, (newScore) => {
-  props.updateScore(props.id, newScore);
+  if (newScore !== null) {
+    props.updateScore(props.id, newScore);
+  }
 });
 
 // Si le prop `initialScore` change, on met à jour la valeur du score local
 watch(() => props.initialScore, (newInitialScore) => {
-  score.value = newInitialScore;
+  score.value = newInitialScore !== 0 ? newInitialScore : null;
 });
 </script>
 
 <template>
   <div class="question-block">
-    <div class="question-header">
-      <span class="question-id">Question N°{{ id }}</span>
-      <p class="question-text">{{ question }}</p>
-    </div>
-
+    <span class="question-id">Question N°{{ id }}</span>
+    <p class="question-text">{{ question }}</p>
     <div class="score-select">
       <label for="score-0" class="radio-label">
         <input type="radio" id="score-0" :name="'question-' + id" v-model="score" :value="0" class="radio-input">
