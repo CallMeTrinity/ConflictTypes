@@ -4,33 +4,32 @@ import { ref, watch, onMounted } from 'vue';
 const props = defineProps({
   id: Number,
   question: String,
-  initialScore: Number, // Ajout d'un prop pour le score initial
   updateScore: {
     type: Function,
     default() {},
   },
 });
 
-const score = ref<number | null>(null); // On utilise null pour indiquer qu'il n'y a pas de sélection par défaut
+const score = ref<number | null>(0); // On utilise null pour indiquer qu'il n'y a pas de sélection par défaut
 
 // À chaque montée du composant, on initialise le score avec la valeur passée ou null si pas de score encore
 onMounted(() => {
-  score.value = props.initialScore !== 0 ? props.initialScore : null;
+  score.value = null;
 });
 // Réinitialisation du score lorsqu'une nouvelle question est affichée
 watch(() => props.id, () => {
-  score.value = props.initialScore !== 0 ? props.initialScore : null;
+  score.value = 0;
+  props.updateScore(props.id - 1, 0)
 });
 // Watch pour suivre les changements de score
 watch(score, (newScore) => {
   if (newScore !== null) {
-    props.updateScore(props.id, newScore);
+    props.updateScore(props.id - 1, newScore);
   }
 });
-
 // Si le prop `initialScore` change, on met à jour la valeur du score local
 watch(() => props.initialScore, (newInitialScore) => {
-  score.value = newInitialScore !== 0 ? newInitialScore : null;
+  score.value = newInitialScore !== 0 ? newInitialScore : 0;
 });
 </script>
 
