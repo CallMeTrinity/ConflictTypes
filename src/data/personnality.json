@@ -1,0 +1,86 @@
+{
+  "traits": {
+    "passif": {
+      "positif": [
+        "Calme",
+        "Posé",
+        "Discret",
+        "Observateur",
+        "Réfléchi",
+        "À l’écoute",
+        "Ne cherche pas le conflit",
+        "Apaisant pour le groupe"
+      ],
+      "negatif": [
+        "Évitement",
+        "Incapacité à décider",
+        "Mutisme",
+        "Regard fuyant",
+        "Voix basse",
+        "Amertume",
+        "Baisse de l'estime de soi",
+        "Manque de responsabilités"
+      ]
+    },
+    "agressif": {
+      "positif": [
+        "Décidé",
+        "Énergique",
+        "Franc"
+      ],
+      "negatif": [
+        "Voix forte",
+        "Gestes brusques",
+        "Domination",
+        "Jugement",
+        "Critiques",
+        "Climat tendu",
+        "Agressivité",
+        "Méfiance"
+      ]
+    },
+    "manipulateur": {
+      "positif": [
+        "Stratégique",
+        "Observateur",
+        "Éloquent",
+        "Réalisateur d'objectifs",
+        "Repère les qualités et faiblesses"
+      ],
+      "negatif": [
+        "Pas sincère",
+        "Discours ambigu",
+        "Flatterie",
+        "Influence",
+        "Rupture de confiance",
+        "Méfiance",
+        "Perte d'identité",
+        "Solitude"
+      ]
+    },
+    "compromis": {
+      "positif": [
+        "Préserve la relation",
+        "Écoute des besoins de l'autre",
+        "Recherche de compromis"
+      ],
+      "negatif": [
+        "Frustration",
+        "Insatisfaction des besoins",
+        "Renoncement",
+        "Stagnation"
+      ]
+    },
+    "assertif": {
+      "positif": [
+        "Affirme ses sentiments",
+        "Respect de l’autre",
+        "Prend des décisions",
+        "Exprime ses convictions sans hostilité",
+        "Confiance en l'autre",
+        "Recherche de solutions gagnant-gagnant"
+      ],
+      "negatif": []
+    }
+  }
+}

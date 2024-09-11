@@ -14,7 +14,7 @@ onMounted(() => {
 
 // Récupérer les questions et scores depuis le store
 const questions = computed(() => store.getters.questions);
-const currentQuestionIndex = ref(0);
+const currentQuestionIndex = ref(74);
 
 // Mettre à jour le score via le store
 const updateScore = (index: number, score: number) => {
