@@ -27,10 +27,7 @@ watch(score, (newScore) => {
     props.updateScore(props.id - 1, newScore);
   }
 });
-// Si le prop `initialScore` change, on met à jour la valeur du score local
-watch(() => props.initialScore, (newInitialScore) => {
-  score.value = newInitialScore !== 0 ? newInitialScore : 0;
-});
+
 </script>
 
 <template>

@@ -11,9 +11,17 @@ import { Chart, BarController, BarElement, CategoryScale, LinearScale, Title, To
 // Enregistrement des composants de Chart.js
 Chart.register(BarController, BarElement, CategoryScale, LinearScale, Title, Tooltip, Legend);
 
-const props = defineProps({
-  chartData: Object
-});
+const props = defineProps<{
+  chartData: {
+    labels: string[];
+    datasets: Array<{
+      label: string;
+      backgroundColor: string[];
+      data: number[];
+    }>;
+  };
+}>();
+
 
 const canvas = ref(null);
 
